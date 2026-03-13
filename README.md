@@ -1,8 +1,7 @@
 # Deepfake Detection: MesoNet Architectures + Attention Mechanisms
 
-> **Course project — Deep Learning (CIS 6930)**
-> University of South Florida · Spring 2025
-> Contributors: **rypow** · **TJ** · **Hieu**
+> **Course project — Deep Learning( (College of Aartificial Intelligence - 5205)*)*
+> University of South Florida · Spring 2026
 
 A research project studying how compact CNNs and large pretrained models detect AI-generated face forgeries — and whether detectors trained on one generation of fakes can generalise to the next.
 
