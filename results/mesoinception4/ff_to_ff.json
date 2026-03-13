@@ -1,0 +1,42 @@
+{
+  "checkpoint": "../checkpoints/best_models/checkpoints_mesoinception4_LR-0.005_randomresizeCrop/best_model.pth",
+  "model_arch": "mesoinception4",
+  "manifest": "../manifests/FF++/test_frames.json",
+  "metrics": {
+    "auc": 0.7620982142857142,
+    "accuracy": 0.6933035714285715,
+    "precision": 0.7103984450923226,
+    "recall": 0.6526785714285714,
+    "f1": 0.680316426244765,
+    "n_samples": 2240,
+    "n_real": 1120,
+    "n_fake": 1120
+  },
+  "per_method": {
+    "Deepfakes": {
+      "accuracy": 0.8428571428571429,
+      "correct": 236,
+      "total": 280
+    },
+    "Face2Face": {
+      "accuracy": 0.7571428571428571,
+      "correct": 212,
+      "total": 280
+    },
+    "FaceSwap": {
+      "accuracy": 0.44642857142857145,
+      "correct": 125,
+      "total": 280
+    },
+    "NeuralTextures": {
+      "accuracy": 0.5642857142857143,
+      "correct": 158,
+      "total": 280
+    },
+    "real": {
+      "accuracy": 0.7339285714285714,
+      "correct": 822,
+      "total": 1120
+    }
+  }
+}

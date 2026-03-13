@@ -1,0 +1,58 @@
+# ── Work in progress ──────────────────────────────────────────────────────────
+_wip/
+
+# ── Model checkpoints & weights ───────────────────────────────────────────────
+checkpoints/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.bin
+
+# ── Dataset manifests & raw data (contain local paths) ────────────────────────
+manifests/
+data/
+
+# ── Per-image model outputs (gradcam, attention maps, eval visualizations) ────
+results/*/gradcam/
+eval_viz/
+evaluation_results/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+*.env
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Experiment tracking ────────────────────────────────────────────────────────
+wandb/
+mlruns/
+runs/
+lightning_logs/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo

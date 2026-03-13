@@ -1,0 +1,102 @@
+{
+  "checkpoint": "../checkpoints/best_models/checkpoints_mesoinception4_LR-0.005_randomresizeCrop/best_model.pth",
+  "model_arch": "mesoinception4",
+  "manifest": "../manifests/diffusion2/test_frames.json",
+  "metrics": {
+    "auc": 0.45555164319487995,
+    "accuracy": 0.49700286682303885,
+    "precision": 0.4936569222283508,
+    "recall": 0.2332551472504561,
+    "f1": 0.3168141592920354,
+    "n_samples": 7674,
+    "n_real": 3837,
+    "n_fake": 3837
+  },
+  "per_method": {
+    "CoDiff": {
+      "accuracy": 0.5166666666666667,
+      "correct": 155,
+      "total": 300
+    },
+    "DFF_inpainting": {
+      "accuracy": 0.31333333333333335,
+      "correct": 94,
+      "total": 300
+    },
+    "DFF_text2img": {
+      "accuracy": 0.34,
+      "correct": 102,
+      "total": 300
+    },
+    "DiffFace": {
+      "accuracy": 0.10548523206751055,
+      "correct": 25,
+      "total": 237
+    },
+    "DreamBooth": {
+      "accuracy": 0.23666666666666666,
+      "correct": 71,
+      "total": 300
+    },
+    "FreeDoM_I": {
+      "accuracy": 0.14333333333333334,
+      "correct": 43,
+      "total": 300
+    },
+    "FreeDoM_T": {
+      "accuracy": 0.19666666666666666,
+      "correct": 59,
+      "total": 300
+    },
+    "HPS": {
+      "accuracy": 0.25666666666666665,
+      "correct": 77,
+      "total": 300
+    },
+    "Imagic": {
+      "accuracy": 0.16,
+      "correct": 48,
+      "total": 300
+    },
+    "Midjourney": {
+      "accuracy": 0.22666666666666666,
+      "correct": 68,
+      "total": 300
+    },
+    "SDXL": {
+      "accuracy": 0.21,
+      "correct": 63,
+      "total": 300
+    },
+    "SDXL_Refine": {
+      "accuracy": 0.17333333333333334,
+      "correct": 52,
+      "total": 300
+    },
+    "celeb_real": {
+      "accuracy": 0.7643378519290928,
+      "correct": 733,
+      "total": 959
+    },
+    "cycle_diff": {
+      "accuracy": 0.12666666666666668,
+      "correct": 38,
+      "total": 300
+    },
+    "ffpp_real": {
+      "accuracy": 0.8112617309697602,
+      "correct": 778,
+      "total": 959
+    },
+    "wiki_real": {
+      "accuracy": 0.6672443674176777,
+      "correct": 385,
+      "total": 577
+    },
+    "yt_real": {
+      "accuracy": 0.7622950819672131,
+      "correct": 1023,
+      "total": 1342
+    }
+  }
+}

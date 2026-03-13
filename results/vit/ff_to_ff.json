@@ -1,0 +1,42 @@
+{
+  "checkpoint": "../checkpoints/vitb16_LR2e-5_LRwarmup5_L2-0.05__AdamW_FF-finetuning/best_model.pth",
+  "model_arch": "vit_b16",
+  "manifest": "../manifests/FF++/test_frames.json",
+  "metrics": {
+    "auc": 0.9428380102040815,
+    "accuracy": 0.86875,
+    "precision": 0.8918406072106262,
+    "recall": 0.8392857142857143,
+    "f1": 0.8647654093836247,
+    "n_samples": 2240,
+    "n_real": 1120,
+    "n_fake": 1120
+  },
+  "per_method": {
+    "Deepfakes": {
+      "accuracy": 0.8857142857142857,
+      "correct": 248,
+      "total": 280
+    },
+    "Face2Face": {
+      "accuracy": 0.8785714285714286,
+      "correct": 246,
+      "total": 280
+    },
+    "FaceSwap": {
+      "accuracy": 0.8821428571428571,
+      "correct": 247,
+      "total": 280
+    },
+    "NeuralTextures": {
+      "accuracy": 0.7107142857142857,
+      "correct": 199,
+      "total": 280
+    },
+    "real": {
+      "accuracy": 0.8982142857142857,
+      "correct": 1006,
+      "total": 1120
+    }
+  }
+}

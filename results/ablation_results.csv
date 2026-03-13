@@ -1,0 +1,16 @@
+run,group,model_arch,train_set,eval_set,auc,accuracy,error_rate,precision,recall,f1,TP,TN,FP,FN,n_samples,n_real,n_fake
+mesoinception4_trained-FF-eval-FF,mesoinception4,mesoinception4,FF++,FF++,0.7621,0.6933,0.3067,0.7104,0.6527,0.6803,731,822,298,389,2240,1120,1120
+mesoinception4_trained-FF-eval-diffusion,mesoinception4,mesoinception4,FF++,Diffusion,0.4556,0.497,0.503,0.4937,0.2333,0.3168,895,2919,918,2942,7674,3837,3837
+mesoinception4_trained-diffusion_eval-FF,mesoinception4,mesoinception4,FF++,FF++,0.4792,0.4987,0.5013,0.4348,0.0089,0.0175,10,1107,13,1110,2240,1120,1120
+mesoinception4_trained-diffusion_eval-diffusion,mesoinception4,mesoinception4,FF++,Diffusion,0.9926,0.947,0.053,0.9494,0.9442,0.9468,3623,3644,193,214,7674,3837,3837
+mesoinception4_cbam_trained-FF_eval-CelebDFv2,mesoinception4_with_cbam,mesoinception4_cbam,FF++,CelebDFv2,0.4813,0.4886,0.5114,0.6454,0.4902,0.5572,5333,2766,2930,5547,16576,5696,10880
+mesoinception4_cbam_trained-FF_eval-Diffusion2,mesoinception4_with_cbam,mesoinception4_cbam,FF++,Diffusion,0.4731,0.4721,0.5279,0.4466,0.233,0.3062,894,2729,1108,2943,7674,3837,3837
+mesoinception4_cbam_trained-FF_eval_FF,mesoinception4_with_cbam,mesoinception4_cbam,FF++,FF++,0.81,0.7183,0.2817,0.7043,0.7527,0.7277,843,766,354,277,2240,1120,1120
+mesoinception4_cbam_trained-diffusion_eval-FF,mesoinception4_with_cbam,mesoinception4_cbam,FF++,FF++,0.4945,0.4964,0.5036,0.25,0.0036,0.007,4,1108,12,1116,2240,1120,1120
+mesoinception4_cbam_trained-diffusion_eval-diffusion,mesoinception4_with_cbam,mesoinception4_cbam,FF++,Diffusion,0.9935,0.9527,0.0473,0.9702,0.9341,0.9518,3584,3727,110,253,7674,3837,3837
+xception_pretrained,ablation,xception_pretrained,FF++,FF++,0.9747,0.9179,0.0821,0.9457,0.8866,0.9152,993,1063,57,127,2240,1120,1120
+xception_pretrained_trained-FF_eval-CelebDFv2,xception_pretrained,xception_pretrained,FF++,CelebDFv2,0.5663,0.4201,0.5799,0.7361,0.1815,0.2912,1975,4988,708,8905,16576,5696,10880
+xception_pretrained_trained-FF_eval-Diffusion,xception_pretrained,xception_pretrained,FF++,Diffusion,0.5017,0.4807,0.5193,0.4666,0.2695,0.3416,1034,2655,1182,2803,7674,3837,3837
+vit_b16_adamW_finetuned-FF_eval-FF,vit_b16_adamW,vit_b16,FF++,FF++,0.9428,0.8688,0.1313,0.8918,0.8393,0.8648,940,1006,114,180,2240,1120,1120
+vit_b16_adamW_finetuned-FF_eval-CelebDFv2,vit_b16_adamW,vit_b16,FF++,CelebDFv2,0.6438,0.4044,0.5956,0.8369,0.1151,0.2023,1252,5452,244,9628,16576,5696,10880
+vit_b16_adamW_finetuned-FF_eval-Diffusion,vit_b16_adamW,vit_b16,FF++,Diffusion,0.5850,0.5422,0.4578,0.6032,0.2468,0.3503,947,3214,623,2890,7674,3837,3837

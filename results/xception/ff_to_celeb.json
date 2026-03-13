@@ -1,0 +1,32 @@
+{
+  "checkpoint": "../checkpoints/checkpoints_xception_pretrained/best_model.pth",
+  "model_arch": "xception_pretrained",
+  "manifest": "../manifests/celeb-dfv2/test_frames.json",
+  "metrics": {
+    "auc": 0.566262807297691,
+    "accuracy": 0.42006515444015446,
+    "precision": 0.7361162877376072,
+    "recall": 0.18152573529411764,
+    "f1": 0.291233502912335,
+    "n_samples": 16576,
+    "n_real": 5696,
+    "n_fake": 10880
+  },
+  "per_method": {
+    "Celeb-real": {
+      "accuracy": 0.8559027777777778,
+      "correct": 2958,
+      "total": 3456
+    },
+    "Celeb-synthesis": {
+      "accuracy": 0.18152573529411764,
+      "correct": 1975,
+      "total": 10880
+    },
+    "YouTube-real": {
+      "accuracy": 0.90625,
+      "correct": 2030,
+      "total": 2240
+    }
+  }
+}

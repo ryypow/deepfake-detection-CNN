@@ -1,0 +1,32 @@
+{
+  "checkpoint": "../evaluation_results/mesoinception4_with_cbam/best_model/mesoinception4_CBAM_LR-0.005_randomResizeCrop/best_model.pth",
+  "model_arch": "mesoinception4_cbam",
+  "manifest": "../manifests/celeb-dfv2/test_frames.json",
+  "metrics": {
+    "auc": 0.4813241619505949,
+    "accuracy": 0.48859797297297297,
+    "precision": 0.6454072370809634,
+    "recall": 0.4901654411764706,
+    "f1": 0.5571749464556235,
+    "n_samples": 16576,
+    "n_real": 5696,
+    "n_fake": 10880
+  },
+  "per_method": {
+    "Celeb-real": {
+      "accuracy": 0.5164930555555556,
+      "correct": 1785,
+      "total": 3456
+    },
+    "Celeb-synthesis": {
+      "accuracy": 0.4901654411764706,
+      "correct": 5333,
+      "total": 10880
+    },
+    "YouTube-real": {
+      "accuracy": 0.43794642857142857,
+      "correct": 981,
+      "total": 2240
+    }
+  }
+}

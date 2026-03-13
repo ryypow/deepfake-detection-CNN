@@ -1,0 +1,42 @@
+{
+  "checkpoint": "../checkpoints/best_models/checkpoints_dataset2_final_mesoinception4CBAM_defaults/best_model.pth",
+  "model_arch": "mesoinception4_cbam",
+  "manifest": "../manifests/FF++/test_frames.json",
+  "metrics": {
+    "auc": 0.49448182397959184,
+    "accuracy": 0.49642857142857144,
+    "precision": 0.25,
+    "recall": 0.0035714285714285713,
+    "f1": 0.007042253521126761,
+    "n_samples": 2240,
+    "n_real": 1120,
+    "n_fake": 1120
+  },
+  "per_method": {
+    "Deepfakes": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 280
+    },
+    "Face2Face": {
+      "accuracy": 0.007142857142857143,
+      "correct": 2,
+      "total": 280
+    },
+    "FaceSwap": {
+      "accuracy": 0.0035714285714285713,
+      "correct": 1,
+      "total": 280
+    },
+    "NeuralTextures": {
+      "accuracy": 0.0035714285714285713,
+      "correct": 1,
+      "total": 280
+    },
+    "real": {
+      "accuracy": 0.9892857142857143,
+      "correct": 1108,
+      "total": 1120
+    }
+  }
+}

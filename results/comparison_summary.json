@@ -1,0 +1,138 @@
+{
+  "test_manifest": "manifests/FF++/test_frames.json",
+  "num_samples": 2240,
+  "models": {
+    "MesoXceptionNet": {
+      "accuracy": 0.6473214285714286,
+      "precision": 0.631578947368421,
+      "recall": 0.7071428571428572,
+      "f1": 0.6672283066554339,
+      "auc": 0.7195766900510204,
+      "per_method": {
+        "Deepfakes": {
+          "accuracy": 0.8964285714285715,
+          "total": 280,
+          "correct": 251,
+          "false_positives": 0,
+          "false_negatives": 29
+        },
+        "Face2Face": {
+          "accuracy": 0.6714285714285714,
+          "total": 280,
+          "correct": 188,
+          "false_positives": 0,
+          "false_negatives": 92
+        },
+        "FaceSwap": {
+          "accuracy": 0.6321428571428571,
+          "total": 280,
+          "correct": 177,
+          "false_positives": 0,
+          "false_negatives": 103
+        },
+        "NeuralTextures": {
+          "accuracy": 0.6285714285714286,
+          "total": 280,
+          "correct": 176,
+          "false_positives": 0,
+          "false_negatives": 104
+        },
+        "real": {
+          "accuracy": 0.5875,
+          "total": 1120,
+          "correct": 658,
+          "false_positives": 462,
+          "false_negatives": 0
+        }
+      }
+    },
+    "MesoXceptionCBAM": {
+      "accuracy": 0.5941964285714286,
+      "precision": 0.5813415574402467,
+      "recall": 0.6732142857142858,
+      "f1": 0.6239139429044269,
+      "auc": 0.6322855548469388,
+      "per_method": {
+        "Deepfakes": {
+          "accuracy": 0.8428571428571429,
+          "total": 280,
+          "correct": 236,
+          "false_positives": 0,
+          "false_negatives": 44
+        },
+        "Face2Face": {
+          "accuracy": 0.675,
+          "total": 280,
+          "correct": 189,
+          "false_positives": 0,
+          "false_negatives": 91
+        },
+        "FaceSwap": {
+          "accuracy": 0.55,
+          "total": 280,
+          "correct": 154,
+          "false_positives": 0,
+          "false_negatives": 126
+        },
+        "NeuralTextures": {
+          "accuracy": 0.625,
+          "total": 280,
+          "correct": 175,
+          "false_positives": 0,
+          "false_negatives": 105
+        },
+        "real": {
+          "accuracy": 0.5151785714285714,
+          "total": 1120,
+          "correct": 577,
+          "false_positives": 543,
+          "false_negatives": 0
+        }
+      }
+    },
+    "ResNet18": {
+      "accuracy": 0.8861607142857143,
+      "precision": 0.8643639427127211,
+      "recall": 0.9160714285714285,
+      "f1": 0.8894668400520156,
+      "auc": 0.957824856505102,
+      "per_method": {
+        "Deepfakes": {
+          "accuracy": 0.9428571428571428,
+          "total": 280,
+          "correct": 264,
+          "false_positives": 0,
+          "false_negatives": 16
+        },
+        "Face2Face": {
+          "accuracy": 0.9178571428571428,
+          "total": 280,
+          "correct": 257,
+          "false_positives": 0,
+          "false_negatives": 23
+        },
+        "FaceSwap": {
+          "accuracy": 0.9214285714285714,
+          "total": 280,
+          "correct": 258,
+          "false_positives": 0,
+          "false_negatives": 22
+        },
+        "NeuralTextures": {
+          "accuracy": 0.8821428571428571,
+          "total": 280,
+          "correct": 247,
+          "false_positives": 0,
+          "false_negatives": 33
+        },
+        "real": {
+          "accuracy": 0.85625,
+          "total": 1120,
+          "correct": 959,
+          "false_positives": 161,
+          "false_negatives": 0
+        }
+      }
+    }
+  }
+}

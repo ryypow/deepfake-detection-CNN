@@ -1,0 +1,102 @@
+{
+  "checkpoint": "../checkpoints/vitb16_LR2e-5_LRwarmup5_L2-0.05__AdamW_FF-finetuning/best_model.pth",
+  "model_arch": "vit_b16",
+  "manifest": "../manifests/diffusion2/test_frames.json",
+  "metrics": {
+    "auc": 0.5849614289462661,
+    "accuracy": 0.5422204847537139,
+    "precision": 0.6031847133757962,
+    "recall": 0.24680740161584572,
+    "f1": 0.3502866654336971,
+    "n_samples": 7674,
+    "n_real": 3837,
+    "n_fake": 3837
+  },
+  "per_method": {
+    "CoDiff": {
+      "accuracy": 0.04666666666666667,
+      "correct": 14,
+      "total": 300
+    },
+    "DFF_inpainting": {
+      "accuracy": 0.12,
+      "correct": 36,
+      "total": 300
+    },
+    "DFF_text2img": {
+      "accuracy": 0.056666666666666664,
+      "correct": 17,
+      "total": 300
+    },
+    "DiffFace": {
+      "accuracy": 0.35443037974683544,
+      "correct": 84,
+      "total": 237
+    },
+    "DreamBooth": {
+      "accuracy": 0.19,
+      "correct": 57,
+      "total": 300
+    },
+    "FreeDoM_I": {
+      "accuracy": 0.19333333333333333,
+      "correct": 58,
+      "total": 300
+    },
+    "FreeDoM_T": {
+      "accuracy": 0.33,
+      "correct": 99,
+      "total": 300
+    },
+    "HPS": {
+      "accuracy": 0.37666666666666665,
+      "correct": 113,
+      "total": 300
+    },
+    "Imagic": {
+      "accuracy": 0.23333333333333334,
+      "correct": 70,
+      "total": 300
+    },
+    "Midjourney": {
+      "accuracy": 0.38,
+      "correct": 114,
+      "total": 300
+    },
+    "SDXL": {
+      "accuracy": 0.36,
+      "correct": 108,
+      "total": 300
+    },
+    "SDXL_Refine": {
+      "accuracy": 0.25,
+      "correct": 75,
+      "total": 300
+    },
+    "celeb_real": {
+      "accuracy": 0.786235662148071,
+      "correct": 754,
+      "total": 959
+    },
+    "cycle_diff": {
+      "accuracy": 0.34,
+      "correct": 102,
+      "total": 300
+    },
+    "ffpp_real": {
+      "accuracy": 0.913451511991658,
+      "correct": 876,
+      "total": 959
+    },
+    "wiki_real": {
+      "accuracy": 0.9168110918544194,
+      "correct": 529,
+      "total": 577
+    },
+    "yt_real": {
+      "accuracy": 0.786140089418778,
+      "correct": 1055,
+      "total": 1342
+    }
+  }
+}
