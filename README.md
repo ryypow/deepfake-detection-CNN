@@ -1,4 +1,4 @@
-# Deepfake Detection: MesoNet Architectures + Attention Mechanisms
+# Deepfake Detection: Beyond MEsonet4 - Benchmarking Modern DeepfakeDetection Across Generational Gaps
 
 > **Course project — Deep Learning( (College of Aartificial Intelligence - 5205)*)*
 > University of South Florida · Spring 2026
